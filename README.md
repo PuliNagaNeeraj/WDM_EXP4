@@ -14,6 +14,7 @@
 4) Visualize the result using matplotlib.
 
 ## Program:
+```
 python
 # Visitor segmentation based on characteristics
 # read the data
@@ -32,7 +33,7 @@ for group, condition in age_groups.items():
     visitors_in_group = visitor_df[condition] 
     print(f"Visitors in {group} age group:")
     print(visitors_in_group)
-
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/67b6e431-ecec-48a8-8b0f-a07a5154e8aa)
 
